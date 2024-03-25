@@ -6,7 +6,7 @@ const rotas = express()
 
 rotas.get("/",vezDoJogador);
 rotas.get("/consultar", consultar);
-rotas.get("/remover/", remover);
+rotas.get("/remover", remover);
 rotas.get("/adicionar", adicionar);
 
 
