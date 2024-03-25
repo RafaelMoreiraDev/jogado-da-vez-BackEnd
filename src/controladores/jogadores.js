@@ -11,11 +11,11 @@ const vezDoJogador = (req, res)=>{
     if (jogadorDaVez >= jogadores.length) {
         jogadorDaVez = 0;
     }
-    return res.send(`o jogador da vez é ${nomeDoJogador}`)
+    return res.json({"o jogador da vez é": {nomeDoJogador}})
 }
 
 const consultar = (req, res)=>{
-    return res.send(jogadores)
+    return res.json(jogadores)
 }
 
 const remover = (req, res)=>{
