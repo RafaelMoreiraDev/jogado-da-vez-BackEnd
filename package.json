@@ -7,7 +7,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node scr/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "deploy": "node src/index.js"
   },
