@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const rotas = require('./roteador');
 const { json } = require('body-parser');
