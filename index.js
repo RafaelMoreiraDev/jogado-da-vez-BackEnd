@@ -1,6 +1,6 @@
 require('dotenv').config()
 const express = require('express');
-const rotas = require('./roteador');
+const rotas = require('./src/roteador');
 const { json } = require('body-parser');
 
 const port = process.env.PORT || 3001;
